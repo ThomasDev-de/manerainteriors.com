@@ -1,0 +1,29 @@
+# WordPress core
+wp-admin/
+wp-includes/
+
+# Uploads & cache
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backups-*/
+
+# Plugins: nur eigene committen
+wp-content/plugins/*
+!wp-content/plugins/manerainteriors/
+
+# Themes: nur dein Theme committen
+wp-content/themes/*
+!wp-content/themes/manerainteriors/
+
+# Konfiguration/Secrets
+wp-config.php
+wp-config-local.php
+
+# System/IDE
+.DS_Store
+.idea/
+.vscode/
+vendor/
+node_modules/
+*.log
